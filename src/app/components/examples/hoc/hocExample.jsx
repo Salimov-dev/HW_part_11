@@ -5,6 +5,7 @@ import CardWrapper from "../../common/Card";
 import SmallTitle from "../../common/typografy/smallTitle";
 import Divider from "../../common/divider";
 import withPropsStyles from "./withPropsStyles";
+
 const HOCExample = () => {
     const ComponentWithAuth = withLogin(Component);
     const ComponentWithPropsStyles = withPropsStyles(Component);
